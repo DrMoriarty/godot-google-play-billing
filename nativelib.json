@@ -1,7 +1,7 @@
 {
   "name": "googleplay-billing",
   "description": "Godot Android plugin for the Google Play Billing library",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "url": "https://github.com/godotengine/godot-google-play-billing",
   "dependencies": [
