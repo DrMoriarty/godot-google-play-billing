@@ -1,15 +1,22 @@
 {
   "name": "googleplay-billing",
+  "display_name": "Google Play billing",
   "description": "Godot Android plugin for the Google Play Billing library",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "godot_version": "3.3.0",
   "license": "MIT",
   "url": "https://github.com/godotengine/godot-google-play-billing",
+  "category": "misc",
+  "author": {
+    "name": "Godot Core Team",
+    "url": "https://github.com/godotengine/godot-google-play-billing/graphs/contributors"
+  },
   "dependencies": [
   ],
   "platform_android": {
     "files": {
       "GodotGooglePlayBilling.gdap": "android/plugins/",
-      "godot-google-play-billing/build/outputs/aar/GodotGooglePlayBilling.1.0.1.release.aar": "android/plugins/"
+      "godot-google-play-billing/build/outputs/aar/GodotGooglePlayBilling.1.0.2.release.aar": "android/plugins/"
     }
   }
 }

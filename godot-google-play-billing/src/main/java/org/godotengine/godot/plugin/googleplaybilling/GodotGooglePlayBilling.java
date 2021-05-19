@@ -161,7 +161,7 @@ public class GodotGooglePlayBilling extends GodotPlugin implements PurchasesUpda
 		});
 	}
 
-	public Dictionary launchPriceChangeConfirmationFlow(String sku) {
+	public void launchPriceChangeConfirmationFlow(final String sku) {
 		if (!skuDetailsCache.containsKey(sku)) {
 			emitSignal("subscription_price_changed_error", null, "Not a valid Sku!", sku);
 		}
